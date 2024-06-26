@@ -2,30 +2,43 @@ body{
     background: #397164;
     font-family: Arial;
     font-style: italic;
+    font-size: 2.0rem;
     border: 30px solid #18453B;
     margin: 0px auto;
     color: #ffffff;
+    padding: 15px;
+}
+
+p {
+    margin: 0px;
+    padding: 0px;
 }
 
 h1{
-    font-size: larger;
+    font-size: 3.0rem;
+    margin: 10px;
 }
 
 .intro{
     display: flex;
-    gap: 25px;
+    gap: 10px;
+    margin: 0px;
 }
 
 .activities{
     display: flex;
+    padding: 0px;
 }
 
 .link{
     display: flex;
     gap: 25px;
+    margin: 0px;
 }
 
 .buttons{
     background: #A4C7BF;
     color: #ffffff;
+    padding: 10px;
+    margin: 0px;
 }
