@@ -100,3 +100,8 @@ h1{
     background: #A4C7BF;
     border-radius: 45px;
 }
+
+.calendar{
+    display: flex;
+    gap: 10px;
+}
