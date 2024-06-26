@@ -10,8 +10,13 @@ body{
     gap: 25px;
 }
 
-.other{
+.activities{
     display: flex;
+}
+
+.link{
+    display: flex;
+    gap: 25px;
 }
 
 .buttons{
