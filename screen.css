@@ -1,8 +1,10 @@
 body{
     background: #397164;
     border: 30px solid #18453B;
+    color: #ffffff;
 }
 
 .buttons{
-    color: #A4C7BF;
+    background: #A4C7BF;
+    color: #ffffff;
 }
