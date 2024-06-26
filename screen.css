@@ -49,6 +49,10 @@ h1{
     padding-top: 10px;
 }
 
+.flag{
+    width: 254px; 
+    height: 159px;
+}
 .activities{
     display: flex;
     padding-top: 10px;
@@ -62,31 +66,34 @@ h1{
     border:none;
     border-radius: 90px;
     margin: 20px;
-   
 }
+
 
 .spartan{
     scale: 0.8;
 }
 
-.p3{
+.spartan1 {
+    float: right;
+}
+
+.bottom{
     display: flex;
     gap: 1px;
     font-size: 1.2rem;
     padding-top: 25px;
     width:100%;
-
 }
 
 .link{
     width: 100%;
 }
 
-.urltxtclass{
+.urltxt{
     display: inline;
 }
 
-.membershipurlclass{
+.url{
     font-size: 18px; 
     display: inline;    
 }
@@ -94,14 +101,41 @@ h1{
 .basketball{
     background: #A4C7BF;
     border-radius: 45px;
+    padding: 20px;
+    width: 225px;
+    height: 310px;
+    display: block;
+    text-align: center;
+    font-size: 2.0rem;
 }
 
 .football{
     background: #A4C7BF;
     border-radius: 45px;
+    padding: 20px;
+    width: 225px;
+    height: 310px;
+    display: block;
+    text-align: center;
+    font-size: 2.0rem;
+}
+
+.meetings{
+    text-align: center;
+    width: 300px;
 }
 
 .calendar{
     display: flex;
-    gap: 10px;
+    gap: 50px;
+}
+
+.emailtext{
+    width: 140px; 
+    padding:5px 1px 5px 1px;    
+}
+
+.return{
+    display: flex; 
+    width: 100%;
 }
