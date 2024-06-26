@@ -12,7 +12,6 @@ body{
 
 .other{
     display: flex;
-    gap: 25px;
 }
 
 .buttons{
