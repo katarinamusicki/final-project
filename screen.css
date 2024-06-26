@@ -1,7 +1,13 @@
 body{
     background: #397164;
     border: 30px solid #18453B;
+    margin: 0 auto;
     color: #ffffff;
+}
+
+.intro{
+    display: flex;
+    gap: 25px;
 }
 
 .buttons{
