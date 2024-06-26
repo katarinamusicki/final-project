@@ -1,44 +1,102 @@
 body{
     background: #397164;
-    font-family: Arial;
+    font-family: sans-serif;
     font-style: italic;
-    font-size: 2.0rem;
-    border: 30px solid #18453B;
+    font-size: 1.4rem;
     margin: 0px auto;
     color: #ffffff;
-    padding: 15px;
+    padding: 40px;
+    scale: 1.2;
+    
 }
 
-p {
+main{
+    margin: 0 auto;
+    width: 917px;
+}
+
+p{
     margin: 0px;
-    padding: 0px;
+}
+
+a:link{
+    color: darkblue;
+}
+
+a:visited {
+    color: darkblue;
+}
+
+a:hover {
+    font-weight: bold;
 }
 
 h1{
     font-size: 3.0rem;
+    font-weight: normal;
     margin: 10px;
+    padding-top: 15px;
+    border-bottom: 5px solid #A4C7BF;
 }
 
+.background {
+    border-bottom: 5px solid #A4C7BF; 
+    text-align: justify;
+}
 .intro{
     display: flex;
     gap: 10px;
-    margin: 0px;
+    padding-top: 10px;
 }
 
 .activities{
     display: flex;
-    padding: 0px;
-}
-
-.link{
-    display: flex;
-    gap: 25px;
-    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .buttons{
     background: #A4C7BF;
     color: #ffffff;
-    padding: 10px;
-    margin: 0px;
+    padding: 20px;
+    border:none;
+    border-radius: 90px;
+    margin: 20px;
+   
+}
+
+.spartan{
+    scale: 0.8;
+}
+
+.p3{
+    display: flex;
+    gap: 1px;
+    font-size: 1.2rem;
+    padding-top: 25px;
+    width:100%;
+
+}
+
+.link{
+    width: 100%;
+}
+
+.urltxtclass{
+    display: inline;
+}
+
+.membershipurlclass{
+    font-size: 18px; 
+    display: inline;    
+}
+
+.basketball{
+    background: #A4C7BF;
+    border-radius: 45px;
+}
+
+.football{
+    background: #A4C7BF;
+    border-radius: 45px;
 }
