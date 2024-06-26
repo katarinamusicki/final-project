@@ -10,6 +10,11 @@ body{
     gap: 25px;
 }
 
+.other{
+    display: flex;
+    gap: 25px;
+}
+
 .buttons{
     background: #A4C7BF;
     color: #ffffff;
