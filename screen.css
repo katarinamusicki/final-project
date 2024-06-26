@@ -1,7 +1,9 @@
 body{
     background: #397164;
+    font-family: Arial;
+    font-style: italic;
     border: 30px solid #18453B;
-    margin: 10px auto;
+    margin: 0px auto;
     color: #ffffff;
 }
 
